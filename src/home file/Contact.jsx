@@ -12,13 +12,13 @@ function Contact() {
         },
         {
             "icon": <FaPhone></FaPhone>,
-            "find": "Find Us",
-            "location": "Jhenaidah, Bangladesh"
+            "find": "Call Us",
+            "location": "01950-374409"
         },
         {
             "icon": <MdMarkEmailRead></MdMarkEmailRead>,
             "find": "Find Us",
-            "location": "Jhenaidah, Bangladesh"
+            "location": "Minhazapon@gmail.com"
         }
     ]
 
