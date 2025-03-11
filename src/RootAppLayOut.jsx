@@ -3,10 +3,12 @@ import Nav from "./Nav"
 
 function RootAppLayOut() {
     return (
-        <div>
-            <Nav></Nav>
-            <Outlet></Outlet>
-        </div>
+        <>
+            <div className=" bg-black ">
+                <Nav></Nav>
+                <Outlet></Outlet>
+            </div>
+        </>
     )
 }
 
