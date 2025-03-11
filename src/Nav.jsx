@@ -26,7 +26,10 @@ function Nav() {
                                 {NavZ}
                             </ul>
                         </div>
-                        <a className="md:ml-16 text-xl font-semibold text-white">WorldAtlas</a>
+                        <div className=" md:ml-16  flex items-center gap-1 ">
+                            <img className=" h-[40px] " src="https://cdn-icons-png.flaticon.com/128/4681/4681442.png" alt="" />
+                            <a className="text-xl font-semibold text-white">WorldAtlas</a>
+                        </div>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
