@@ -1,7 +1,5 @@
 
-
 function Banner() {
-
     return (
         <>
             <div className=" ml-16 mr-16 mt-10 mb-16 p-5 ">
