@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <div>Hello world!</div>,
     children: [
       {
-        path: "contacts/:contactId",
+        path: "/",
         element: <Contact />,
       },
     ],
