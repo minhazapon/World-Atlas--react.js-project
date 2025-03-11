@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom"
 
-
 function Nav() {
 
     const NavZ = <>
@@ -11,7 +10,6 @@ function Nav() {
         <li className=" text-white hover:border-[1px] border-cyan-300 "><NavLink to='/contact'>Contact</NavLink></li>
 
     </>
-
 
     return (
         <>
