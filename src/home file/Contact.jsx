@@ -32,7 +32,7 @@ function Contact() {
                     <div>
                         <div>
                             {
-                                ContactData.map(PreValue => <ConDetails key={PreValue.id}></ConDetails>)
+                                ContactData.map(PreValue => <ConDetails key={PreValue.id} PreValue={PreValue}></ConDetails>)
                             }
                         </div>
                     </div>
