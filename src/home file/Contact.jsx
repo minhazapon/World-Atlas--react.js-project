@@ -23,9 +23,17 @@ function Contact() {
     ]
 
     return (
-        <div>
+        <>
+            <div>
 
-        </div>
+                <div className=" ml-16 mr-16 mb-10 mt-10 p-5">
+
+
+
+                </div>
+
+            </div>
+        </>
     )
 }
 
