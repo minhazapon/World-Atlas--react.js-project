@@ -1,6 +1,7 @@
 import { CiLocationArrow1 } from "react-icons/ci";
 import { FaPhone } from "react-icons/fa6";
 import { MdMarkEmailRead } from "react-icons/md";
+import ConDetails from "./ConDetails";
 
 function Contact() {
 
@@ -28,10 +29,15 @@ function Contact() {
 
                 <div className=" ml-16 mr-16 mb-10 mt-10 p-5">
 
-
+                    <div>
+                        <div>
+                            {
+                                ContactData.map(PreValue => <ConDetails key={PreValue.id}></ConDetails>)
+                            }
+                        </div>
+                    </div>
 
                 </div>
-
             </div>
         </>
     )
