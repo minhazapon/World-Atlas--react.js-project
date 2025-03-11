@@ -1,6 +1,7 @@
 import axios from "axios"
 import { useEffect } from "react"
 import { useState } from "react"
+import WorldDetails from "./WorldDetails"
 
 
 function WorldFacts() {
@@ -29,7 +30,7 @@ function WorldFacts() {
                     <div>
                         <div>
                             {
-
+                                world.map(worldValue => <WorldDetails key={worldValue.id}  ></WorldDetails>)
                             }
                         </div>
                     </div>
