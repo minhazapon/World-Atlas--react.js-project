@@ -27,10 +27,10 @@ function WorldFacts() {
                         <p className=" text-center text-white font-semibold text-4xl">Here is the interesting<br></br> facts we're proud</p>
                     </div>
 
-                    <div>
-                        <div>
+                    <div className=" flex justify-center mt-10 ">
+                        <div className=" grid  md:grid-cols-3 gap-5 ">
                             {
-                                world.map(worldValue => <WorldDetails key={worldValue.id}  ></WorldDetails>)
+                                world.map(worldValue => <WorldDetails key={worldValue.id} worldValue={worldValue}  ></WorldDetails>)
                             }
                         </div>
                     </div>
