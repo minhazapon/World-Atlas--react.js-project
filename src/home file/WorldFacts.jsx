@@ -1,7 +1,21 @@
+import axios from "axios"
+import { useEffect } from "react"
+import { useState } from "react"
 
 
 function WorldFacts() {
 
+    const [world, setWorld] = useState([])
+
+    useEffect(() => {
+        axios.get('https://raw.githubusercontent.com/minhazapon/World-Atlas--react.js-project/refs/heads/main/public/world.json')
+            .then(res => {
+                setWorld(res.data)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }, [])
 
     return (
         <>
@@ -12,9 +26,15 @@ function WorldFacts() {
                         <p className=" text-center text-white font-semibold text-4xl">Here is the interesting<br></br> facts we're proud</p>
                     </div>
 
+                    <div>
+                        <div>
+                            {
+
+                            }
+                        </div>
+                    </div>
 
                 </div>
-
             </div>
         </>
     )
